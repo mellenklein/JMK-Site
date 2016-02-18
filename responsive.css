@@ -1,0 +1,184 @@
+
+/* for phone screens: */
+
+@media screen and (max-width: 480px) {
+
+	.nav {
+		text-align: center;
+  	padding: 10px 0;
+  	margin: 0;
+  	font-size: .50em;
+	}
+
+	.nav ul {
+  	list-style-type: none;
+  	margin: 0;
+  	padding: 0;
+	}
+
+
+	.nav li {
+  	display: block;
+	}
+
+	.nav a {
+  	font-weight: 800;
+  	padding: 1px 1px;
+		display: block;
+		text-align: center;
+		text-decoration: none;
+	}
+
+	.nav .selected {
+		margin: 20px 0 0;
+		font-weight: 800;
+		padding: 1px 1px;
+	}
+
+	.about {
+		padding: 0;
+	}
+
+	.main h2,
+	.main p {
+		text-align: center;
+	}
+
+	#blue-window {
+		height: 250px;
+		width: 80%;
+		margin: 10%;
+	}
+
+	.team h1 {
+		padding-top: 20px;
+	}
+
+	.jumbotron h1 {
+		padding-top: 50px;
+	}
+
+	.jrk {
+		width: 70%;
+		height: 100px;
+		position: center;
+		margin: 10% 20%;
+		padding: 20px 0;
+	}
+
+	.mlk {
+		width: 70%;
+		height: 400px;
+		position: center;
+		margin-top: 220px;
+		margin-right: 20%;
+		margin-bottom: 10%;
+		margin-left: 20%;
+		padding: 20px 0;
+		float: left;
+	}
+
+	#jrk-face {
+		width: auto;
+		padding: 10px;
+		margin: 0 15% 0;
+		display: inline;
+		text-align:center;
+	}
+
+	#mlk-face {
+		width: auto;
+		padding: 10px;
+		margin: 0 15% 0;
+		display: inline;
+		text-align:center;
+	}
+
+	.team h2,
+	.team p {
+		text-align: center;
+	}
+
+#ftn-logo {
+	height: 150px;
+	width: 70%;
+	margin: 10%;
+}
+
+#l3-logo {
+	height: 80px;
+	width: 70%;
+	margin: 10%;
+}
+
+.twitter {
+	padding: 10px;
+	border-radius: 5px;
+}
+
+.gallery {
+	font-size: 0;
+}
+	.footer {
+		height: 150px;
+	}
+
+	.footer p {
+		height: 30px;
+	}
+
+	form {
+		max-width: 100%;
+		height: 250px;
+		width: 80%;
+		margin: 5%;
+	}
+
+input, textarea {
+	max-width: 100%;
+}
+
+	#leftArrow,
+	#rightArrow {
+		padding-top: 0px;
+	}
+
+	#overlay {
+		height: 100%;
+	}
+
+	.jumbotron {
+		text-align: center;
+		height: 650px;
+	}
+
+}
+
+
+
+
+
+
+
+
+/* for tablets */
+
+/*@media screen and (max-width: 600px) {
+
+	.nav {
+		height: auto;
+	}
+
+	.nav ul {
+		width: 100%;
+		display: block;
+		height: auto;
+	}
+
+	.nav li {
+		width: 50%;
+		float: left;
+		position: relative;
+	}
+
+}*/

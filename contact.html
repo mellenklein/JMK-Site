@@ -1,0 +1,84 @@
+<?php
+if($_POST["message"]) {
+    mail("maryellenklein@gmail.com", "Form to email message", $_POST["message"], "From: an@email.address");
+}
+?>
+
+<!DOCTYPE html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<link href='http://fonts.googleapis.com/css?family=Roboto:400,300,500,100' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="style.css"/>
+		<link rel="stylesheet" href="responsive.css"/>
+		<link rel="shortcut icon" href="JMKfavicon.ico" type="image/x-icon"/>
+		<title>JMK & Associates | Contact</title>
+		<script language="php" src="contact.php" type="text/php"></script>
+	</head>
+
+	<body>
+
+		<div class="nav">
+			<div class="container" class="clearfix">
+				<a href="index.html"><img src="images/JMK-Logo.png" height="75" width="130"></a>
+				<ul class="clearfix">
+		          <li class="btn"> <a href="about.html">About</a></li>
+		          <li class="btn"> <a href="team.html">Team</a> </li>
+		          <li class="btn"> <a href="services.html">Services</a> </li>
+		          <li class="btn"> <a href="projects.html">Projects</a> </li>
+		          <li class="selected" class="btn"> <a href="contact.html">Contact</a> </li>
+        		</ul>
+			</div>
+		</div>
+
+		<div class="main" id="form">
+			<div class="container">
+				<img class="contactImg" src="images/contact.jpg" height="300">
+				<h2>Contact Us</h2>
+				<div class="contact">
+					<h3>Email:</h3>
+					<p><a href="mailto:jrayklein@gmail.com">jennifer@jmkandassoc.com</a></p>
+					<h3>Phone:</h3>
+					<p><a href="tel:4043742487">(404) 374-2487</a></p>
+					<h3>Twitter:</h3>
+					<p><a href="http://www.twitter.com/jmkandassoc" target="_blank">@jmkandassoc</a></p>
+				</div>
+				<!-- <form method="post" name="myemailform" action="contact.php">
+				    <div>
+				        <label for="name">Name:</label>
+				        <input type="text" id="name" name="name"/>
+				    </div>
+				    <div>
+				        <label for="mail">E-mail:</label>
+				        <input type="email" id="mail" name="mail"/>
+				    </div>
+				    <div>
+				        <label for="msg">Message:</label>
+				        <textarea id="msg"></textarea>
+				    </div>
+
+				    <div class="button">
+							<input type="submit" name='submit' value="submit">
+				    </div>
+				</form> -->
+			</div>
+		</div>
+
+
+		<div class="jumbotron">
+			<div class="container">
+				<h1>Stay Connected</h1>
+				<p>Stay up to date with current industry news, and follow the inspiring stories as they get published.</p>
+				<a class="btn twitter" href="https://twitter.com/JMKandAssoc">Follow @JMKandAssoc</a>
+			</div>
+		</div>
+
+		<div class="footer">
+			<div class="container">
+				<p>&copy; JMK & Associates, 2015</p>
+				<p>Atlanta, GA, 30327</p>
+				<p>Site Design: <a href="mailto:maryellenklein@gmail.com">MLK Productions</a></p>
+			</div>
+		</div>
+
+	</body>
+</html>
